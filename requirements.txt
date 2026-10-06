@@ -1,0 +1,13 @@
+# Cartier — Python dependencies
+# Install: pip install -r requirements.txt
+
+pywebview>=4.4.1
+
+# ── PyWebView backend (choose ONE based on your OS) ─────────────────────────
+# Windows  →  pip install pywebview[winforms]   (uses Edge WebView2 — best)
+#          or pip install pywebview[qt]          (Qt fallback)
+# macOS    →  pip install pywebview              (uses WKWebView natively)
+# Linux    →  pip install pywebview[qt]          (Qt + QtWebEngine)
+
+# ── Build to EXE ─────────────────────────────────────────────────────────────
+pyinstaller>=6.0
